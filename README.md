@@ -1,42 +1,36 @@
-# WebsiteGen ⚡
+# Every Morning Cartel ☕
 
-Generate stunning, modern websites in seconds using AI-powered design and professional templates. Transform your ideas into beautiful, responsive websites with just a few clicks.
+Mumbai's premium specialty coffee experience. An experimental coffee bar featuring multi-roaster brews, artisanal pour-overs, and a creative space for coffee enthusiasts.
 
-[Live Demo](https://website-gen-demo.vercel.app) | [Documentation](https://website-gen-docs.vercel.app) | [Examples](https://website-gen-examples.vercel.app)
+[Live Demo](https://every-morning-cartel.vercel.app) | [Menu](https://every-morning-cartel.vercel.app#products) | [Location](https://every-morning-cartel.vercel.app#contact)
 
-![WebsiteGen Demo](https://via.placeholder.com/800x400/2B2B2B/F5F0EB?text=WebsiteGen+Demo+GIF)
+![Every Morning Cartel](https://via.placeholder.com/800x400/2B2B2B/F5F0EB?text=Every+Morning+Cartel+Coffee+Shop)
 
-## Why WebsiteGen?
+## 🎯 What Makes Every Morning Cartel Special?
 
-- 🎨 **AI-Driven Design**: Intelligent suggestions for colors, layouts, and typography
-- ⚡ **Lightning Fast**: Generate complete websites in under 30 seconds
-- 🎯 **Modern Templates**: Professionally designed, mobile-first templates
-- 🔧 **Fully Customizable**: Export clean, maintainable code
-- 🌟 **Brand-Aligned**: Perfect for businesses, portfolios, and landing pages
-- 📱 **Responsive by Default**: Looks great on all devices
-- 🚀 **Production Ready**: Optimized for performance and SEO
+- ☕ **Multi-Roaster Selection**: Curated beans from premium roasters worldwide
+- 🎨 **Experimental Space**: Creative coffee lab with pour-over rituals and sensory experiences
+- 🌆 **Urban Sophistication**: Industrial-chic design in the heart of Mumbai
+- 👥 **Community Focus**: Loyalty program for coffee revolutionaries
+- ⚡ **Artisanal Quality**: Precision brewing and flavor exploration
+- 📱 **Digital Experience**: Seamless online presence with brand-aligned design
 
-## Features
+## ☕ Experience
 
-### ✨ Core Features
-- **Template Library**: 50+ professionally designed templates
-- **AI Color Palette Generator**: Brand-aligned color suggestions
-- **Typography Intelligence**: Font pairing recommendations
-- **Component Builder**: Drag-and-drop interface
-- **SEO Optimization**: Built-in meta tags and structured data
-- **Performance Optimized**: Lighthouse 100/100 scores
+### 🏪 The Cartel Space
+- Industrial-chic interior with exposed concrete and warm lighting
+- Neon "Cartel" signage and curated decor
+- Sensory-focused environment for coffee appreciation
 
-### 🎨 Design System
-- **Brand Identity Analysis**: Instagram and website analysis tools
-- **Color Harmony**: Advanced color theory algorithms
-- **Typography Scale**: Perfect font hierarchies
-- **Spacing System**: Consistent, scalable layouts
+### 📋 Featured Roasts
+- **Ethiopia Guji**: Floral, juicy, wild - vibrant highlands in every cup
+- **Experimental Blend**: Boundary-pushing multi-roaster combinations
+- **Single Origin Series**: Weekly terroir explorations
 
-### 🔧 Technical Excellence
-- **Clean Code Export**: Semantic HTML, modern CSS, optimized assets
-- **Framework Options**: Export as HTML/CSS, React, Next.js, or Vue
-- **Asset Optimization**: Automatic image compression and WebP conversion
-- **Accessibility**: WCAG 2.1 AA compliant by default
+### 🎁 Loyalty Program
+- Join the underground movement of coffee revolutionaries
+- Exclusive access to experimental roasts and events
+- Surprise drops and brewing technique unlocks
 
 ## Quick Start (5 Minutes)
 
@@ -66,18 +60,18 @@ npm run dev
 4. **Generate** your website
 5. **Export** clean, production-ready code
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
-- **Next.js 14** - React framework with App Router
+- **Next.js 16** - React framework with App Router
 - **TypeScript** - Type-safe development
 - **Tailwind CSS** - Utility-first styling
 - **Framer Motion** - Smooth animations
 
-### AI & Design
-- **OpenAI GPT-4** - Content and design suggestions
-- **Color Theory API** - Intelligent color palettes
-- **Font Pairing Algorithm** - Typography recommendations
+### Design & Assets
+- **Google Fonts** - Playfair Display, Inter, Space Grotesk
+- **Custom Brand Colors** - Espresso brown, charcoal black, cream white
+- **Video Background** - Cooking demonstration for immersive experience
 
 ### Build & Deploy
 - **Vercel** - Global CDN deployment
