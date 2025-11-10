@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="bg-charcoal-black text-cream-white py-12">
+    <footer className="bg-charcoal text-cream py-12">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="font-playfair text-2xl mb-4">Every Morning Cartel</h3>
+            <h3 className="font-inter text-2xl font-bold mb-4">Every Morning Cartel</h3>
             <p className="font-inter opacity-80">
               Premium specialty coffee in the heart of Mumbai.
             </p>
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-concrete-gray mt-8 pt-8 text-center">
+        <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="font-inter opacity-60 text-sm">
             © 2024 Every Morning Cartel. All rights reserved.
           </p>

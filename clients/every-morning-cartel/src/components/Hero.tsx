@@ -8,7 +8,7 @@ export default function Hero() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="relative min-h-screen flex items-center justify-center bg-charcoal-black text-cream-white overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center bg-charcoal text-cream overflow-hidden"
     >
       {/* Background Video */}
       <video
@@ -21,7 +21,7 @@ export default function Hero() {
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-charcoal-black/50"></div>
+      <div className="absolute inset-0 bg-charcoal/50"></div>
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
@@ -29,7 +29,7 @@ export default function Hero() {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="font-playfair text-5xl md:text-7xl lg:text-8xl font-normal mb-6"
+          className="font-inter text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
         >
           Every Pour<br />Tells a Story
         </motion.h1>
@@ -50,7 +50,7 @@ export default function Hero() {
         >
           <a
             href="#experience"
-            className="inline-block bg-espresso-brown hover:bg-muted-copper text-cream-white font-space-grotesk px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
+            className="inline-block bg-espresso hover:bg-copper text-cream font-space-grotesk px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
           >
             Enter the Cartel
           </a>

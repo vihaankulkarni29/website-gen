@@ -26,7 +26,6 @@ const config: Config = {
         'accent-dark': '#D4A574',
       },
       fontFamily: {
-        'clash': ['Clash Display', 'Inter', 'sans-serif'],
         'inter': ['Inter', 'system-ui', 'sans-serif'],
         'mono': ['JetBrains Mono', 'monospace'],
       },
