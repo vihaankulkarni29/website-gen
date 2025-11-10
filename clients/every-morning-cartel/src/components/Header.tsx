@@ -8,7 +8,7 @@ export default function Header() {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="bg-charcoal-black text-cream-white py-8"
+      className="fixed top-0 w-full bg-charcoal-black text-cream-white py-8 z-50"
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
         <motion.h1
