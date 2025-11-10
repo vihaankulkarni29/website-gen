@@ -10,37 +10,48 @@ export default function Contact() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="py-20 bg-cream-white"
+      className="py-20 bg-cream"
     >
       <div className="max-w-4xl mx-auto px-4 text-center">
         <motion.h2
-          className="font-playfair text-3xl md:text-4xl mb-8 text-espresso-brown"
+          className="font-inter text-3xl md:text-4xl font-bold mb-8 text-espresso"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Join the Community
+          @everymorningcartel
         </motion.h2>
         <motion.p
-          className="font-inter text-lg mb-8 text-espresso-brown max-w-2xl mx-auto"
+          className="font-inter text-lg mb-8 text-espresso max-w-2xl mx-auto"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Ready to become part of the coffee cartel? Connect with us for events, merch, and exclusive experiences. Let's craft your perfect brew together.
+          Follow us for daily coffee inspiration, behind-the-scenes moments, and community stories. Aesthetic visuals of coffee, matcha, and plated dishes paired with moody lighting and vinyl culture.
         </motion.p>
-        <motion.blockquote
-          className="font-space-grotesk italic text-espresso-brown mb-8 max-w-2xl mx-auto p-6 bg-concrete-gray bg-opacity-10 border-l-4 border-muted-copper"
-          initial={{ opacity: 0, x: -30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.6, duration: 0.6 }}
+        <motion.div
+          className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 max-w-4xl mx-auto"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6, duration: 0.8 }}
           viewport={{ once: true }}
         >
-          "Every pour tells a story — and this place knows how to tell it right."
-          <cite className="block mt-4 font-bold text-muted-copper not-italic">- Regular Visitor</cite>
-        </motion.blockquote>
+          {/* Instagram-style grid - placeholder images */}
+          <div className="aspect-square bg-espresso/10 rounded-lg flex items-center justify-center">
+            <span className="text-espresso/50 text-sm">📸</span>
+          </div>
+          <div className="aspect-square bg-espresso/10 rounded-lg flex items-center justify-center">
+            <span className="text-espresso/50 text-sm">☕</span>
+          </div>
+          <div className="aspect-square bg-espresso/10 rounded-lg flex items-center justify-center">
+            <span className="text-espresso/50 text-sm">🎵</span>
+          </div>
+          <div className="aspect-square bg-espresso/10 rounded-lg flex items-center justify-center">
+            <span className="text-espresso/50 text-sm">🏙️</span>
+          </div>
+        </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -48,10 +59,12 @@ export default function Contact() {
           viewport={{ once: true }}
         >
           <a
-            href="mailto:info@everymorningcartel.com"
-            className="inline-flex items-center bg-espresso-brown hover:bg-muted-copper text-cream-white font-space-grotesk px-8 py-4 text-sm uppercase tracking-wider transition-all duration-300 hover:shadow-lg"
+            href="https://www.instagram.com/everymorningcartel/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-espresso hover:bg-copper text-cream font-space-grotesk px-8 py-4 text-sm uppercase tracking-wider transition-all duration-300 hover:shadow-lg"
           >
-            Start the Conversation
+            Follow on Instagram
             <motion.span
               className="ml-2"
               initial={{ x: 0 }}
