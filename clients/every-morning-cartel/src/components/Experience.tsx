@@ -11,11 +11,9 @@ export default function Experience() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
-      className="relative py-20 bg-cover bg-center"
-      style={{ backgroundImage: "url('/every-morning-cartel-mumbai-coffee-shops-j6htnp59s5.avif')" }}
+      className="relative py-20 bg-charcoal"
     >
-      <div className="absolute inset-0 bg-charcoal/80"></div>
-      <div className="container relative text-center text-white" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.6)' }}>
+      <div className="container relative text-center text-cream">
         <motion.h2
           className="font-inter text-3xl md:text-4xl font-bold mb-8"
           initial={{ opacity: 0, y: 30 }}

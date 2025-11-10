@@ -50,7 +50,7 @@ export default function Products() {
               transition={{ delay: 0.3 + index * 0.1, duration: 0.6 }}
               viewport={{ once: true }}
               className={`bg-cream border border-border rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 ${
-                product.featured ? 'ring-2 ring-copper bg-amber-50' : ''
+                product.featured ? 'ring-2 ring-copper' : ''
               }`}
             >
               {product.featured && (
