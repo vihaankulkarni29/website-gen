@@ -7,12 +7,13 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
 
 export const metadata: Metadata = {
-  title: 'Every Morning Cartel',
-  description: 'Experimental coffee bar in Mumbai. Multi-roaster brews, creative space, and sensory experiences.',
+  title: 'Every Morning Cartel | Premium Coffee in Mumbai',
+  description: 'Experience specialty coffee crafted with passion in the heart of Mumbai',
+  keywords: ['coffee', 'specialty coffee', 'Mumbai', 'cafe'],
   openGraph: {
     title: 'Every Morning Cartel',
-    description: 'Experimental coffee bar in Mumbai. Multi-roaster brews, creative space, and sensory experiences.',
-    type: 'website',
+    description: 'Premium specialty coffee in Mumbai',
+    images: ['/images/og-image.jpg'],
   },
 }
 
@@ -23,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable} ${spaceGrotesk.variable} font-inter`}>
+      <body className="antialiased bg-cream-white text-charcoal-black">
         {children}
       </body>
     </html>

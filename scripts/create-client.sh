@@ -5,28 +5,31 @@
 
 set -e
 
-if [ $# -eq 0 ]; then
-    echo "Usage: $0 <client-name>"
-    echo "Example: $0 my-awesome-client"
-    exit 1
-fi
-
 CLIENT_NAME=$1
-CLIENT_DIR="clients/$CLIENT_NAME"
 
-# Check if client already exists
-if [ -d "$CLIENT_DIR" ]; then
-    echo "Error: Client '$CLIENT_NAME' already exists!"
-    exit 1
+if [ -z "$CLIENT_NAME" ]; then
+  echo "Usage: ./create-client.sh <client-name>"
+  exit 1
 fi
 
-echo "🚀 Creating new client: $CLIENT_NAME"
+echo "Creating new client project: $CLIENT_NAME"
 
-# Create client directory structure
-mkdir -p "$CLIENT_DIR"/{src/app,src/components,public/assets}
+# Create client directory
+mkdir -p "clients/$CLIENT_NAME"
+cd "clients/$CLIENT_NAME"
 
-# Copy template files (you would need to create these templates)
-echo "📋 Setting up project structure..."
+# Initialize Next.js project
+npx create-next-app@latest . --typescript --tailwind --app --no-src-dir
+
+# Copy shared components
+cp -r ../../shared/components ./components/shared
+cp -r ../../shared/utils ./lib/utils
+
+echo "✅ Client project created: clients/$CLIENT_NAME"
+echo "📝 Next steps:"
+echo "   1. cd clients/$CLIENT_NAME"
+echo "   2. npm run dev"
+echo "   3. Start building!"
 
 # Create package.json
 cat > "$CLIENT_DIR/package.json" << EOF
