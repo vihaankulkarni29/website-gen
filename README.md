@@ -45,7 +45,7 @@ website-gen/
 
 ## 📞 Contact
 
-For inquiries: [your-email@example.com]
+For inquiries: [vihaankulkarni29@gmail.com]
 
 ---
 
