@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <h4 className="font-space-grotesk text-lg mb-4">Visit Us</h4>
             <p className="font-inter opacity-80">
-              [Address]<br />
+              [Ground floor, Ladiwala bhavan, Shop no, 1 & 2, SV Rd, Kandivali West, Mumbai, Maharashtra 400067]<br />
               Mumbai, India<br />
               Mon-Sun: 7AM - 8PM
             </p>

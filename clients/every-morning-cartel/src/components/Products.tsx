@@ -29,11 +29,11 @@ export default function Products() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="py-20 bg-charcoal-black text-cream-white"
+      className="py-20 bg-charcoal text-cream"
     >
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2
-          className="font-playfair text-3xl md:text-4xl mb-12 text-center"
+          className="font-inter text-3xl md:text-4xl font-bold mb-12 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -49,18 +49,18 @@ export default function Products() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 + index * 0.1, duration: 0.6 }}
               viewport={{ once: true }}
-              className={`bg-cream-white border border-concrete-gray rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 ${
-                product.featured ? 'ring-2 ring-muted-copper bg-amber-50' : ''
+              className={`bg-cream border border-border rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 ${
+                product.featured ? 'ring-2 ring-copper bg-amber-50' : ''
               }`}
             >
               {product.featured && (
-                <div className="bg-muted-copper text-cream-white px-3 py-1 rounded-full text-xs font-space-grotesk uppercase tracking-wider mb-4 inline-block">
+                <div className="bg-copper text-cream px-3 py-1 rounded-full text-xs font-space-grotesk uppercase tracking-wider mb-4 inline-block">
                   Featured
                 </div>
               )}
               <div className="p-6 text-center">
-                <h3 className="font-playfair text-xl mb-4 text-espresso-brown">{product.name}</h3>
-                <p className="font-inter text-espresso-brown leading-relaxed">{product.description}</p>
+                <h3 className="font-inter text-xl font-bold mb-4 text-espresso">{product.name}</h3>
+                <p className="font-inter text-espresso leading-relaxed">{product.description}</p>
               </div>
             </motion.div>
           ))}
